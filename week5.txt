@@ -1,0 +1,13 @@
+week5
+local variables ตัวแปรจะถูกประกาศค่าภายใน block ซึ่งจะสามารถใช้งานได้ภายในฟังก์ชันที่ถูกประกาศไว้
+global variables ตัวแปรที่ถูกประกาศไว้นอก global สามารถถูกเข้าถึงได้จากฟังก์ชันต่างๆ รวมถึงฟังก์ชันmain
+
+Storage class มี4ประเภท คือ auto, register, extern, และ static
+และแบ่งออกเป็น 2 storage duration คือ automatic storage duration, static storage duration
+
+auto และ register ใช้กำหนดตัวแปรที่เป็น automatic storage duration คือ ตัวแปรจะอยู่ในmemory เมื่อเข้าทำงานใน block แต่เมื่อโปรแกรมออกจากblock ตัวแปรจะไม่อยู่ในmemoryอีกต่อไป
+
+extern และ static ใช้กำหนดตัวแปรที่เป็น static storage duration คือ ตัวแปรจะถูกกำหนดขึ้นมาใน memory ตั้งแต่โปรแกรมทำงาน  และอยู่ในmemoryจนกว่าจะสิ้นสุดการทำงาน
+
+rand() ใช้ในการสร้างเลขสุ่มที่เป็นจำนวนเต็ม โดยจะส่งค่ากลับมาเป็นจำนวนเต็มที่แตกต่างกันอกไป
+
