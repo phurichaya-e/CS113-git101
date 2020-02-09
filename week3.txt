@@ -1,0 +1,13 @@
+week3
+-expression กลายเป็น statement เมื่อถูกปิดท้ายด้วย semi-colon ; เช่น x = 0 กลายเป็น x = 0;
+-ใช้เครื่องหมาย { } เพื่อรวม declarations และ statements เข้าเป็น block
+-switch ใช้ในการตรวจสอบเงื่อนไขว่าexpressionนั้นตรงกับค่าคงที่ใด
+-default มีหรือไม่มีก็ได้ แต่ถ้ามีแล้วคำสั่งนั้นจะถูกทำงานเมื่อexpressionไม่ตรงกับcaseไหนเลย
+
+for (expr1; expr2; expr3)
+statement
+expr1 expr3 จะเป็นการกำหนดค่าหรือการเรียกใช้ฟังก์ชัน 
+expr2 จะเป็นการเปรียบเทียบค่า
+break จะช่วยทำให้โปรแกรมหลุดออกมาจากลูปfor ,whileทันที
+continue จะบังคับให้ลูปทำงานซ้ำ
+
