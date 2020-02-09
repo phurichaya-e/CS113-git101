@@ -1,0 +1,31 @@
+week2
+ขนาดของข้อมูล
+char ความจํา 1 ไบท์
+Int ความจํา 4 ไบท์
+float ความจํา 4 ไบท์
+double ความจํา 8 ไบท์
+
+short ลดพื้นที่จัดเก็บ
+long เพิ่มพื้นที่จัดเก็บ
+unsigned เก็บจำนวนเต็มเฉพาะค่าบวก
+
+ฐาน 2 = 0b หรือ 0B
+ฐาน 8 = 0 ในรูปแบบการพิมพ์จะใช้ %o
+ฐาน 16 = 0x หรือ 0X ในรูปแบบการพิมพ์จะใช้ %x
+
+printf()
+%d หรือ %i สำหรับ decimal integer
+%f สำหรับ floating point
+%c สำหรับ character,
+%s สำหรับ character string
+
+c=getchar(c) ใช้รับอักขระ 1 ตัว แล้วกำหนดค่าให้กับc
+putchar(c) ใช้ส่งอักขระที่มีค่าในcออกมา
+
+& and
+| or 
+^ exclusive or
+<< left shift
+>> right shift
+~ one's complement
+
